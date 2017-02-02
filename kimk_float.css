@@ -1,0 +1,24 @@
+img#float {
+    width:        150px;
+    position:     fixed;
+    z-index:      200;  /* Above everything */
+    top:          30px;
+    left:         50%;
+    right:        auto;
+    margin-left:  175px;
+    margin-right: 0px;
+    transition:   5s, transform 1s;
+}
+img#float:hover {
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter:    hue-rotate(360deg);
+    -ms-filter:     hue-rotate(360deg);
+    -o-filter:      hue-rotate(360deg);
+    filter:         hue-rotate(360deg);
+
+    -webkit-transform: rotate(5deg);
+    -moz-transform:    rotate(5deg);
+    -ms-transform:     rotate(5deg);
+    -o-transform:      rotate(5deg);
+    transform:         rotate(5deg);
+}

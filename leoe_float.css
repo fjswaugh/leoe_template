@@ -1,0 +1,24 @@
+img#float {
+    width:        152px;
+    position:     fixed;
+    z-index:      200;  /* Above everything */
+    top:          30px;
+    left:         50%;
+    right:        auto;
+    margin-left:  93px;
+    margin-right: 0px;
+    transition:   0.75s, transform 0.75s;
+}
+img#float.scrolled {
+    margin-left: 200px !important;
+}
+@media screen and (max-width: 600px) {
+    img#float.scrolled {
+        margin-left:  0px  !important;
+        margin-right: 0px  !important;
+        top:          5px  !important;
+        left:         auto !important;
+        right:        5px  !important;
+        width:        75px !important;
+    }
+}
