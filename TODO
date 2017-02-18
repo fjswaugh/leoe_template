@@ -1,3 +1,8 @@
+Add means to automatically configure Joomla (default featured on, editor
+        choice).
+
+Add all of template (including media, etc.) to git repository.
+
 Lack of content
 Too much text on pages, break with bolded headings and pictures
 Automatic social media feeds
