@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.6" type="template">
+	<name>leoe_kimk</name>
+	<creationDate>2016-12-13</creationDate>
+	<author>Fergus Waugh</author>
+	<authorEmail>fjswaugh@gmail.com</authorEmail>
+	<authorUrl>http://www.leoeandhyde.com</authorUrl>
+	<copyright>Fergus Waugh 2016</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.2</version>
+	<description>A template for Marriage of Kim K</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>images</folder>
+		<folder>css</folder>
+	</files>
+	<positions>
+        <position>title</position>
+        <position>header</position>
+        <position>content</position>
+        <position>sidebar</position>
+        <position>user1</position>
+        <position>user2</position>
+		<position>footer</position>
+	</positions>
+</extension>
