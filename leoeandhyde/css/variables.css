@@ -6,7 +6,8 @@
     --header-background: rgb(255, 255, 255);
     --font-size:         16px;
     --content-min-width: 250px;
-    --content-width:     500px;  /* This is the width of social media posts */
+    --social-width:      500px;
+    --content-width:     750px;
     --background-height: 375px;
 }
 
