@@ -32,6 +32,9 @@
 
 <a name="top-anchor"></a>
 
+<!-- Load the Facebook SDK -->
+<script src="//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.5"></script>
+
 <jdoc:include type="head" />
 
 <div class="header">
@@ -60,7 +63,6 @@
     <!-- Whatever the page is pointing to (for main page it's featured
          articles, for other pages it would be one article -->
     <jdoc:include type="component" />
-
 </div>
 
 <div class="sidebar" data-scroll-speed="1">
