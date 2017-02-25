@@ -1,18 +1,27 @@
 <?php defined( '_JEXEC' ) or die( 'Restricted access' );?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-    xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" >
+<html
+    xmlns="http://www.w3.org/1999/xhtml"
+    xml:lang="<?php echo $this->language; ?>"
+    lang="<?php echo $this->language; ?>"
+>
 
 <head>
+
+<!-- JQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+<!-- Infinite scoll -->
 <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/jquery-ias.min.js"></script>
 
 <!-- Instagram embed script -->
 <script src="//platform.instagram.com/en_US/embeds.js"></script>
 
+<!-- Adjust scaling for mobile devices -->
 <meta id="meta" name="viewport" content="width=device-width, initial-scale=1.0">
 
 <jdoc:include type="head" />
+
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css" />
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/general.css" type="text/css" />
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template.css" type="text/css" />
@@ -20,24 +29,28 @@
 </head>
 
 <body>
+
 <a name="top-anchor"></a>
 
 <jdoc:include type="head" />
 
 <div class="header">
     <a href="/#top-anchor">
+        <!-- Module for title content -->
         <div id="title">
             <jdoc:include type="modules" name="title" />
         </div>
     </a>
+
     <!-- Module for content at the top of the page -->
     <div id="header-bar">
         <jdoc:include type="modules" name="header" />
     </div>
-
 </div>
 
-<a href="/#top-anchor"><img id="float" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/float.png"></img></a>
+<a href="/#top-anchor">
+    <img id="float" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/images/float.png"></img>
+</a>
 
 <div class="content">
     <!-- A place to insert a module with extra page content above whatever the
