@@ -25,6 +25,10 @@
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css" />
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/general.css" type="text/css" />
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template.css" type="text/css" />
+<!-- Dynamic styles -->
+<style type="text/css">
+    
+</style>
 
 </head>
 
@@ -76,8 +80,14 @@
 <jdoc:include type="modules" name="user1" />
 <jdoc:include type="modules" name="user2" />
 
-<div id="footer-bar">
-    <jdoc:include type="modules" name="footer" />
+<div class="footer">
+    <div id="footer-bar">
+        <jdoc:include type="modules" name="footer" />
+    </div>
+
+    <div id="bottom-title">
+        <jdoc:include type="modules" name="bottom-title" />
+    </div>
 </div>
 
 <script>
