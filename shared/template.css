@@ -24,6 +24,16 @@ body {
     top: 0px;
 }
 
+/* Set style for 'bottom title' */
+#bottom-title .custom {
+    background-color: var(--blue-color);
+    text-align:       center;
+    background-attachment: fixed;
+    background-repeat:     no-repeat;
+    padding-top:    50px;
+    padding-bottom: 10px;
+}
+
 /* Set a background image for the title */
 #title {
     /* The image used */
@@ -114,10 +124,24 @@ body {
 }
 
 .content {
+    width:         var(--content-width);
     overflow:      auto;
     background:    var(--main-background);
     min-width:     var(--content-min-width);
-    width:         var(--content-width);
+    /* Limit width so that it never causes a screen scroll.
+     * It's 90% to prevent overflow and subsequent scroll due to padding */
+    max-width:     90%;
+    margin:        20px auto;
+    margin-bottom: 30px;
+    padding-left:  5px;
+    padding-right: 5px;
+}
+
+.content .blog-featured {
+    width:         var(--social-width);
+    overflow:      auto;
+    background:    var(--main-background);
+    min-width:     var(--content-min-width);
     /* Limit width so that it never causes a screen scroll.
      * It's 90% to prevent overflow and subsequent scroll due to padding */
     max-width:     90%;
