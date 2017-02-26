@@ -1,18 +1,18 @@
 img#float {
-    width:        152px;
+    width:        230px;
     position:     fixed;
     z-index:      200;  /* Above everything */
     top:          30px;
     left:         50%;
     right:        auto;
-    margin-left:  93px;
+    margin-left:  150px;
     margin-right: 0px;
     transition:   0.75s, transform 0.75s;
 }
 img#float.scrolled {
-    margin-left: 200px !important;
+    margin-left: 220px !important;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     img#float.scrolled {
         margin-left:  0px  !important;
         margin-right: 0px  !important;

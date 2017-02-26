@@ -7,4 +7,4 @@
 --content-min-width: 250px
 --social-width:      500px
 --content-width:     750px
---background-height: 375px
+--background-height: 560px
