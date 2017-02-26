@@ -25,7 +25,7 @@ def compile(input_directory, output_directory):
     css_file.write(css_data)
     css_file.close()
 
-clear('output/leoekimk')
-compile('marriageofkimk', 'output/leoekimk') 
-clear('output/leoeleoe')
-compile('leoeandhyde', 'output/leoeleoe') 
+clear('output/leoe_kimk')
+compile('marriageofkimk', 'output/leoe_kimk') 
+clear('output/leoe_leoe')
+compile('leoeandhyde', 'output/leoe_leoe') 
