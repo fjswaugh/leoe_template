@@ -1,11 +1,11 @@
 img#float {
-    width:        150px;
+    width:        220px;
     position:     fixed;
     z-index:      200;  /* Above everything */
     top:          30px;
     left:         50%;
     right:        auto;
-    margin-left:  175px;
+    margin-left:  260px;
     margin-right: 0px;
     transition:   5s, transform 1s;
 }
