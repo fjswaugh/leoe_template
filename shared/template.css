@@ -154,8 +154,8 @@ body {
 
 .sidebar {
     position:    absolute;
-    top:         0px;
-    padding-top: 300px;
+    top:         VARIABLE[--background-height];
+    padding-top: 50px;
     left:        30px;
     width:       300px;
     color:       #9b9b9b;
@@ -180,7 +180,7 @@ body {
   margin-left: 0.25em;
   vertical-align: -0.55em;
 }
-@media screen and (max-width: 1120px) {
+@media screen and (max-width: 1460px) {
     .sidebar {
         display: none;
     }

@@ -143,7 +143,8 @@
 
     function parallaxScroll(){
         var scrolled = $(window).scrollTop();
-        $('.sidebar').css('top',(0+(scrolled * 0.6))+'px');
+        const normal_top = parseFloat("VARIABLE[--background-height]");
+        $('.sidebar').css('top',(normal_top+(scrolled * 0.6))+'px');
     }
 </script>
 
