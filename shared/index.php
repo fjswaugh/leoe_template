@@ -157,11 +157,9 @@
             const html = document.querySelector("html");
             const htmlStyles = window.getComputedStyle(html);
 
-            let pixels = htmlStyles.getPropertyValue("--content-width");
-            changeSize.contentWidth = parseFloat(pixels);
+            changeSize.contentWidth = parseFloat("VARIABLE[--content-width]");
 
-            pixels = htmlStyles.getPropertyValue("--background-height");
-            changeSize.backgroundHeight = parseFloat(pixels);
+            changeSize.backgroundHeight = parseFloat("VARIABLE[--background-height]");
 
             changeSize.floatWidth      = parseFloat(floatImg.css("width"));
             changeSize.floatTop        = parseFloat(floatImg.css("top"));
