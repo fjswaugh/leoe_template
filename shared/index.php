@@ -17,6 +17,9 @@
 <!-- Instagram embed script -->
 <script src="//platform.instagram.com/en_US/embeds.js"></script>
 
+<!-- Twitter embed script -->
+<script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <!-- Adjust scaling for mobile devices -->
 <meta id="meta" name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -114,7 +117,8 @@
     ias.on('loaded', function(data, items) {
         setTimeout(function(){
             window.instgrm.Embeds.process();
-            console.log("Instagram process script called");
+            window.FB.XFBML.parse();
+            console.log("Embed process script called");
         }, 250);
     })
 </script>
