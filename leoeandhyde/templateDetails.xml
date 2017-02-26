@@ -23,5 +23,6 @@
         <position>user1</position>
         <position>user2</position>
 		<position>footer</position>
+        <position>bottom-title</position>
 	</positions>
 </extension>
