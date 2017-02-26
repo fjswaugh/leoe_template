@@ -177,7 +177,6 @@
         titleDiv.css('height', ratio * changeSize.backgroundHeight);
 
         floatImg.css('width',       ratio * changeSize.floatWidth);
-        floatImg.css('top',         ratio * changeSize.floatTop);
         floatImg.css('margin-left', ratio * changeSize.floatMarginLeft);
     }
 
