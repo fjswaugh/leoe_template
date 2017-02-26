@@ -25,6 +25,7 @@ def compile(input_directory, output_directory):
     css_file.write(css_data)
     css_file.close()
 
+call(["mkdir", "-p", "output"])
 clear('output/leoe_kimk')
 compile('marriageofkimk', 'output/leoe_kimk') 
 clear('output/leoe_leoe')
