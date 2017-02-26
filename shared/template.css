@@ -44,7 +44,7 @@ body {
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position:   center 25px;
-    background-size:       500px;
+    background-size:       var(--content-width);
     background-repeat:     no-repeat;
 
     width:         100%;
@@ -52,7 +52,7 @@ body {
     padding-top:   50px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: var(--content-width)) {
     #title {
         background-size: 100%;
     }
