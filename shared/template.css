@@ -25,7 +25,8 @@ body {
 
 /* Set style for 'bottom title' */
 #bottom-title .custom {
-    background-color: VARIABLE[--blue-color];
+    color:            VARIABLE[--bottom-font-color];
+    background-color: VARIABLE[--bottom-color];
     text-align:       center;
     background-attachment: fixed;
     background-repeat:     no-repeat;
