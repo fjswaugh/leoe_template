@@ -8,5 +8,5 @@
 --social-width:      500px
 --content-width:     750px
 --background-height: 560px
---bottom-color:      #782525
+--bottom-color:      #3B3B3B
 --bottom-font-color: rgb(255, 255, 255)
