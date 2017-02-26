@@ -37,6 +37,8 @@
 
 <body>
 
+<div id="base-wrapper" style="min-height: 100%; position: relative;">
+
 <a name="top-anchor"></a>
 
 <!-- Load the Facebook SDK -->
@@ -187,6 +189,8 @@
         changeSize();
     });
 </script>
+
+</div>  <!-- Base wrapper -->
 
 </body>
 
