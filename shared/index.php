@@ -37,7 +37,7 @@
 
 <body>
 
-<div id="base-wrapper" style="min-height: 100%; position: relative;">
+<div id="base-wrapper" style="min-height: 100%; position: relative; overflow: hidden;">
 
 <a name="top-anchor"></a>
 
