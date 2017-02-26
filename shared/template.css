@@ -1,8 +1,7 @@
 @import 'float.css';
-@import 'variables.css';
 
 html {
-    color:       var(--font-color);
+    color:       VARIABLE[--font-color];
     font-family: sans-serif;
 }
 
@@ -16,8 +15,8 @@ h2 {
 
 body {
     margin:     0px;
-    background: var(--main-background);
-    font-size:  var(--font-size);
+    background: VARIABLE[--main-background];
+    font-size:  VARIABLE[--font-size];
 }
 
 .header {
@@ -26,7 +25,7 @@ body {
 
 /* Set style for 'bottom title' */
 #bottom-title .custom {
-    background-color: var(--blue-color);
+    background-color: VARIABLE[--blue-color];
     text-align:       center;
     background-attachment: fixed;
     background-repeat:     no-repeat;
@@ -39,12 +38,12 @@ body {
     /* The image used */
     background-image: url("../images/img_parallax.png");
 
-    height: var(--background-height);
+    height: VARIABLE[--background-height];
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position:   center 25px;
-    background-size:       var(--content-width);
+    background-size:       VARIABLE[--content-width];
     background-repeat:     no-repeat;
 
     width:         100%;
@@ -52,7 +51,7 @@ body {
     padding-top:   50px;
 }
 
-@media screen and (max-width: var(--content-width)) {
+@media screen and (max-width: VARIABLE[--content-width]) {
     #title {
         background-size: 100%;
     }
@@ -76,10 +75,10 @@ body {
 #header-bar ul, #footer-bar ul {
     margin:         0px auto;
     z-index:        100;
-    background:     var(--header-background);
-    border-bottom:  1px solid var(--blue-color);
-    min-width:      var(--content-min-width);
-    width:          var(--content-width);
+    background:     VARIABLE[--header-background];
+    border-bottom:  1px solid VARIABLE[--blue-color];
+    min-width:      VARIABLE[--content-min-width];
+    width:          VARIABLE[--content-width];
     /* Including padding, these uls should never be wider than surrounding div,
      * otherwise they will cause scrolling on small screens. */
     max-width:      90%;
@@ -109,14 +108,14 @@ body {
 #header-bar a:hover, #footer-bar a:hover {
     border-bottom-style: solid;
     border-bottom-width: 4px;
-    border-bottom-color: var(--blue-color);
+    border-bottom-color: VARIABLE[--blue-color];
     text-decoration:     none;
 }
 
 #header-bar [class*="current"] a {
     border-bottom-style: solid;
     border-bottom-width: 4px;
-    border-bottom-color: var(--blue-color);
+    border-bottom-color: VARIABLE[--blue-color];
 }
 
 #header-bar [class*="default"] {
@@ -124,10 +123,10 @@ body {
 }
 
 .content {
-    width:         var(--content-width);
+    width:         VARIABLE[--content-width];
     overflow:      auto;
-    background:    var(--main-background);
-    min-width:     var(--content-min-width);
+    background:    VARIABLE[--main-background];
+    min-width:     VARIABLE[--content-min-width];
     /* Limit width so that it never causes a screen scroll.
      * It's 90% to prevent overflow and subsequent scroll due to padding */
     max-width:     90%;
@@ -138,10 +137,10 @@ body {
 }
 
 .content .blog-featured {
-    width:         var(--social-width);
+    width:         VARIABLE[--social-width];
     overflow:      auto;
-    background:    var(--main-background);
-    min-width:     var(--content-min-width);
+    background:    VARIABLE[--main-background];
+    min-width:     VARIABLE[--content-min-width];
     /* Limit width so that it never causes a screen scroll.
      * It's 90% to prevent overflow and subsequent scroll due to padding */
     max-width:     90%;
@@ -191,7 +190,7 @@ body {
 }
 
 a {
-    color:           var(--link-color);
+    color:           VARIABLE[--link-color];
     text-decoration: none;
 }
 a:hover {
@@ -214,12 +213,12 @@ a:hover {
 .pager li>a {
     display: inline-block;
     padding: 3px 5px;
-    border:  1px solid var(--blue-color);
+    border:  1px solid VARIABLE[--blue-color];
 }
 .pager li>a:hover {
     text-decoration:  none;
-    background-color: var(--blue-color);
-    color:            var(--main-background);
+    background-color: VARIABLE[--blue-color];
+    color:            VARIABLE[--main-background];
 }
 
 /* Control display of article titles */
@@ -232,7 +231,7 @@ a:hover {
 .content h2.item-title {
     overflow: hidden;
     text-align: center;
-    font-size: var(--font-size);
+    font-size: VARIABLE[--font-size];
 }
 .content h2.item-title:before, h2.item-title:after {
     background-color: #000;
@@ -351,5 +350,5 @@ div.about_content .company_info {
 }
 
 .document-link {
-    color: var(--blue-color);
+    color: VARIABLE[--blue-color];
 }
