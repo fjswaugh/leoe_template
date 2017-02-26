@@ -129,7 +129,7 @@ body {
     min-width:     VARIABLE[--content-min-width];
     /* Limit width so that it never causes a screen scroll.
      * It's 90% to prevent overflow and subsequent scroll due to padding */
-    max-width:     90%;
+    max-width:     95%;
     margin:        20px auto;
     margin-bottom: 30px;
     padding-left:  5px;
@@ -141,13 +141,15 @@ body {
     overflow:      auto;
     background:    VARIABLE[--main-background];
     min-width:     VARIABLE[--content-min-width];
-    /* Limit width so that it never causes a screen scroll.
-     * It's 90% to prevent overflow and subsequent scroll due to padding */
-    max-width:     90%;
+    max-width:     95%;
     margin:        20px auto;
     margin-bottom: 30px;
     padding-left:  5px;
     padding-right: 5px;
+}
+
+.fb-post span {
+    max-width: 100%;
 }
 
 .sidebar {
