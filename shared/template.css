@@ -33,6 +33,11 @@ body {
     padding-bottom: 10px;
 }
 
+#bottom-title .custom .company_info {
+    text-align: left;
+    padding-left: 30px;
+}
+
 /* Set a background image for the title */
 #title {
     /* The image used */
@@ -344,11 +349,6 @@ iframe.wrapper {
 
 .ias-noneleft, .ias-spinner {
     margin-top: 30px;
-}
-
-div.about_content .company_info {
-    text-align: left;
-    padding-top: 50px;
 }
 
 .document-link {
